@@ -1,6 +1,10 @@
 # Ravdess
 Data understanding, Clustering and Classification of a dataset created from the RAVDESS dataset <br />
 
+The project stems from a Data Mining and Machine Learning examination within the second-level master's program in Computer Science at the University of Pisa, completed in collaboration with Martina Podestà and Ramiro Predassi. We conducted clustering and classification analyses, exploring a wide range of methodologies and models. Following data preparation, we executed clustering algorithms such as K-Means, DBSCAN, and Hierarchical Clustering, yielding interesting results. <br />
+
+Ultimately, we employed a variety of classification models, including K-Nearest Neighbors (KNN), Decision Trees, Random Forests, to make precise and efficient predictions regarding emotions. Subsequently, I independently expanded the code to generate predictions concerning the gender of the actors, achieving significant outcomes. <br />
+
 This dataset was created from the RAVDESS dataset (https://es.sonicurlprotection-fra.com/click?PV=2&MSGID=202209141411100289250&URLID=1&ESV=10.0.18.7423&IV=CDD893A9D96AB6D6469DFBAF03B52C7A&TT=1663164671774&ESN=SJ44mpH7HPEgdwadIHqGKE9aHAKB%2FGfCfiESv9Jnnj4%3D&KV=1536961729280&B64_ENCODED_URL=aHR0cHM6Ly96ZW5vZG8ub3JnL3JlY29yZC8xMTg4OTc2KSw&HK=3428F8A9C48043894424396B826370722E127A5AEC482B778236DC3B3D0A300B extracting basic statistics (mean, std, min, max, etc.) from the original audio data and after transforming it using: zero-crossing rate, Mel-Frequency Cepstral Coefficients, spectral centroid, and the stft chromagram. Features were extracted from the 2452 wav files. <br />
 
 ## Data understanding
